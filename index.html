@@ -23,14 +23,20 @@
                 <a class="header-logo logo" href="./index.html" aria-label="Home page link">Web<span>Studio</span></a>
 
                 <ul class="site-nav list">
-                    <li class="nav-link link"><a href="./index.html" class="link active" aria-label="Home page link">Студия</a> </li>
-                    <li class="nav-link link"><a href="./portfolio.html" class="link" aria-label="portfolio page link">Портфолио</a> </li>
-                    <li class="nav-link link"><a href="#" class="link" aria-label="contacts page link">Контакты</a> </li>
+                    <li class="nav-item link">
+                        <a class="nav-link active" href="./index.html" aria-label="Home page link">Студия</a> 
+                    </li>
+                    <li class="nav-item link">
+                        <a class="nav-link" href="./portfolio.html" aria-label="portfolio page link">Портфолио</a> 
+                    </li>
+                    <li class="nav-item link">
+                        <a class="nav-link" href="#" aria-label="contacts page link">Контакты</a> 
+                    </li>
                 </ul>
             
                 <ul class="auth-nav list">
                     <li class="auth-nav-link link" >                        
-                        <a class="nav-icon-mail" href="mailto:info@devstudio.com" aria-label="contact email link">
+                        <a class="nav-icon-mail nav-icon" href="mailto:info@devstudio.com" aria-label="contact email link">
                             <svg class="mail-icon" width="16" height="12">
                                 <use href="./images/icons.svg#icon-mail"></use>
                             </svg>
@@ -38,7 +44,7 @@
                         </a>
                     </li>
                     <li class="auth-nav-link link" >                        
-                        <a class="nav-icon-phone" href="tel:+380961111111" aria-label="contact phone link">
+                        <a class="nav-icon-phone nav-icon" href="tel:+380961111111" aria-label="contact phone link">
                             <svg class="phone-icon" width="10" height="16">
                                 <use href="./images/icons.svg#icon-phone"></use>
                             </svg>
@@ -109,13 +115,18 @@
                 <h2 class="activity-title title">Чем мы занимаемся</h2>
                 <ul class="activity-list">
                     <li class="activity-item link">
-                        <img src="./images/box1.jpg" alt="качнственный процесс создания программы" width="370" height="294">
+                        <img class="activity-image" src="./images/box1.jpg" alt="качнственный процесс создания программы" width="370" height="294">
+                        <p class="activity-label">Десктопные приложения</p>
                     </li>
                     <li class="activity-item link">
-                        <img src="./images/box2.jpg" alt="адаптивная версия программы" width="370" height="294">
+                        <img class="activity-image" src="./images/box2.jpg" alt="адаптивная версия программы" width="370" height="294">
+                        <p class="activity-label">Мобильные приложения</p>
+
                     </li>
                     <li class="activity-item link">
-                        <img src="./images/box3.jpg" alt="полный, современный дизайн" width="370" height="294">
+                        <img class="activity-image" src="./images/box3.jpg" alt="полный, современный дизайн" width="370" height="294">
+                        <p class="activity-label">Дизайнерские решения</p>
+
                     </li>
                 </ul>
             </div>
@@ -399,6 +410,6 @@
         </section>
     </footer>
     
-    <!-- <script src="./js/index.js"></script> -->
+    <script src="./js/modal.js"></script>
 </body>
 </html>
